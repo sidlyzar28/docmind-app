@@ -82,10 +82,11 @@ ${limitedText}
     const summary = response.text;
 
     return NextResponse.json({
-      success: true,
-      filename: file.name,
-      summary,
-    });
+  success: true,
+  filename: file.name,
+  summary,
+  text: documentText,
+});
   } catch (error) {
     console.error("PDF processing error:", error);
 
