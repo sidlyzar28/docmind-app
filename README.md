@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DocMind — AI Document Intelligence Platform
 
-## Getting Started
+DocMind is an AI-powered document analysis platform that allows users to upload PDF documents, generate AI-powered summaries, and ask questions about their documents.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Upload PDF documents
+- Drag-and-drop PDF upload
+- Extract text from PDF files
+- Generate AI-powered document summaries
+- Ask questions about uploaded documents
+- Get answers based on the document content
+- Responsive modern UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Node.js
+- pdf-parse
+- Google Gemini API
+- Git & GitHub
+- Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
 
-## Learn More
+1. Upload a PDF document.
+2. DocMind extracts the text from the document.
+3. Gemini AI analyzes the extracted content.
+4. A structured summary is generated.
+5. Users can ask questions about the document.
+6. Gemini generates answers using the document content.
 
-To learn more about Next.js, take a look at the following resources:
+## Future Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Potential future improvements include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.Document history
+2.Multiple document support
+3.Retrieval-Augmented Generation (RAG)
+4.Persistent document storage
+5.User authentication
+6.Improved long-document handling
+7.Document comparison
+8.Additional document formats
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Built as a full-stack AI project using Next.js, TypeScript and Google Gemini.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ If you find this project useful, consider giving the repository a star.
